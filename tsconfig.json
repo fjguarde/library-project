@@ -2,14 +2,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-<<<<<<< HEAD
     "paths": {
       "@fjg/ngx-components": [
         "dist/fjg/ngx-components"
       ],
     },
-=======
->>>>>>> 475ecbacd803222635603ce1179dae91af90e898
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -19,39 +16,18 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-<<<<<<< HEAD
-=======
-    "paths": {
-      "@fjg/ngx-components/*": [
-        "projects/ngx-components/src/lib"
-      ],
-      "@fjg/ngx-components": [
-        "projects/ngx-components/src/public-api.ts",
-        "dist/ngx-components/public-api.d.ts"
-      ],
-    },
->>>>>>> 475ecbacd803222635603ce1179dae91af90e898
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-<<<<<<< HEAD
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
       "dom"
     ]
-=======
-    "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
-    "useDefineForClassFields": false
->>>>>>> 475ecbacd803222635603ce1179dae91af90e898
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
