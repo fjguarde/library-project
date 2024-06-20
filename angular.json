@@ -38,6 +38,8 @@
     }
   },
   "cli": {
-    "analytics": "ff6d35d4-08ec-4439-9977-fde7322d1d4c"
+    "cache": {
+      "enabled": false
+    }
   }
 }
