@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build @fjg/ngx-components",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "npm_pack": "cd dist/fjg/ngx-components && npm pack",
+    "npm_pack": "cd projects/dist/fjg/ngx-components && npm pack",
     "package": "npm run build && npm run npm_pack",
-    "link": "cd dist/fjg/ngx-components && npm link"
+    "link": "cd projects/dist/ngx-components && npm link"
   },
   "private": true,
   "dependencies": {
