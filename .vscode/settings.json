@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#f0a00050", // Fondo barra de título
+        "sideBar.background": "#1f1f1f", // Color de fondo del menú lateral
+        "editor.background": "#000000", // Fondo del editor
+        "terminal.background": "#1f1f1f", // Fondo del terminal
+        "activityBar.background": "#1f1f1f", // Color de fondo de la barra de actividad lateral
+        "statusBar.background": "#1f1f1f", // Color de fondo de la barra de estado
+    }
+}

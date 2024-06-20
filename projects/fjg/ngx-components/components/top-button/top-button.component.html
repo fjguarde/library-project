@@ -1,0 +1,22 @@
+<button *ngIf="showButton"
+    (click)="scrollToTop()"
+    id="myBtn" 
+    title="Go to top" 
+    [ngStyle]="{'background-color': color}">
+    <svg *ngIf="showIcon" 
+        xmlns="http://www.w3.org/2000/svg" 
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="20px"
+        height="20px"
+        viewBox="-5 -4 25 15"
+        xml:space="preserve">
+        <polyline 
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            points="0,7 7,0 15,7" />
+    </svg>
+    <span *ngIf="!showIcon" class="button-text">{{text}}</span>
+</button>

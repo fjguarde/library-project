@@ -1,0 +1,11 @@
+{
+  "name": "@fjg/ngx-components",
+  "version": "0.0.1",
+  "description": "Angular FJG components library",
+  "peerDependencies": {
+    "@angular/common": "^16.1.6",
+    "@angular/core": "^16.1.6"
+  },
+  "dependencies": {
+  }
+}

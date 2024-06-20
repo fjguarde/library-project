@@ -1,0 +1,13 @@
+<div *ngIf="user" class="fjg-card-user">
+    <img [ngClass]="{'fjg-card-user--avatar': cardType === 'avatar'}" 
+         [src]="user.picture?.medium" 
+         alt="user image">
+    <div class="fjg-card-user--info">
+        <p>{{user.name?.first || ''}}</p>
+        <p>{{user.name?.last || ''}}</p>
+    </div>
+    <div *ngIf="check" class="fjg-card-user--check">
+        <input type="checkbox" id="check" (click)="onCheck()">
+        <label for="check">Check</label>
+    </div>
+</div>

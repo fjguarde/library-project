@@ -1,0 +1,27 @@
+.fjg-card-user {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 13rem;
+    background: rgb(128, 179, 223);
+    border-radius: 0.5rem;
+    box-shadow: 1px 9px 9px #969c9c;
+}
+
+.fjg-card-user img {
+    display: block;
+    height: 100%;
+}
+
+.fjg-card-user--info,
+.fjg-card-user--check {
+    flex: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.fjg-card-user--avatar {
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 50%;
+}
