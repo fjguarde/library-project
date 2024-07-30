@@ -1,27 +1,58 @@
-# LibraryProject
+# Bibliote Angular **@fjg/ngx-componentes**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+![Angular](https://angular.io/assets/images/logos/angular/angular.svg)
 
-## Development server
+## Contenido
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Componentes Incluidos](#componentes-incluidos)
+- [Directivas Incluidas](#directivas-incluidas)
+- [Instalación desde npm](#inslación)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para instalar la biblioteca @fjg/ngx-components desde npm, sigue estos pasos:
+1. Abre una terminal en el directorio raíz de tu proyecto Angular.
+2. Ejecuta el siguiente comando para instalar la biblioteca:
 
-## Build
+```sh
+npm install @fjg/ngx-components
+```
+Una vez instalada, puedes importar los módulos necesarios en tu archivo AppModule como se muestra en la sección de uso.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Uso
 
-## Running unit tests
+```sh
+import { TopButtonModule } from '@fjg/top-button.module.ts';
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+  imports: [
+    TopButtonModule
+    // otros módulos
+  ],
+  // otros elementos de configuración
+})
+export class AppModule { }
+```
 
-## Running end-to-end tests
+## Componentes incluidos
+- **Top-button**: Botón en pie de página para hacer scroll al inicio.
+- **Card-user**: Tarjeta para agrupar datos de usuarios.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Directivas incluidas
+- **Highlight**: Usada para marcar texto encontrado.
 
-## Further help
+## Contribución
+Si deseas contribuir, por favor, sigue estas pautas:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (git checkout -b nueva-funcionalidad).
+3. Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
+4. Envía tus cambios a tu fork (git push origin nueva-funcionalidad).
+5. Crea un Pull Request en GitHub.
+
+## Licencia
+Este proyecto está licenciado bajo la licencia MIT - consulta el archivo LICENSE para más detalles.
